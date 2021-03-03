@@ -24,12 +24,12 @@ class BlogEntry {
 
 // Maak van entries en creator 'private' properties, gebruik _ notatie
 // Voorzie een getter voor creator, geen setter, zorg dat creator de waarde
-// 'Anonymous' krijgt indien de parameter creator niet werd opegegeven of leeg is.
+// 'Anonymous' krijgt indien de parameter creator niet werd opgegeven of leeg is.
 // Voorzie een getter voor entries en voorzie een methode addEntry met 1 parameter body
 // die een entry maakt en toevoegt aan de blog
 
 // Voeg een property title toe aan Blog. De waarde wordt voorzien via de constructor,
-// voorzie hirvoor title als eerste parameter bij de constructor
+// voorzie hiervoor title als eerste parameter bij de constructor
 // Voorzie een getter en setter voor title, indien de title leeg is wordt een
 // error geworpen: throw new Error('You must give the blog a title')
 
@@ -39,7 +39,7 @@ class BlogEntry {
 
 // Voeg een static method createEmptyBlog toe aan Blog
 // De methode retourneert een Blog met als creator Anonymous en als title 'A lazy blog...'
-// en bevat 1 entry, namelijk een dummyEntry (gebruik createDummy uir BlogEntry)
+// en bevat 1 entry, namelijk een dummyEntry (gebruik createDummy uit BlogEntry)
 
 // Test your code
 
