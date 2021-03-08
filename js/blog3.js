@@ -45,7 +45,6 @@ class BlogEntry {
 }
 
 class TaggedBlogEntry extends BlogEntry {
-  //nothing changed, omitted for brevity
   constructor(body, author, tags) {
     super(body, author);
     this._tags = tags;
@@ -70,6 +69,8 @@ class TaggedBlogEntry extends BlogEntry {
   }
 }
 
+// Neem de klasse Blog over uit blog2.js en werk daarop verder.
+//
 // Override de methode toString(), zorg voor een verzorgde uitvoer van title en creator
 // Maak gebruik van de toString uit BlogEntry om daaronder een overzicht
 // van alle entries te krijgen
@@ -78,8 +79,8 @@ class TaggedBlogEntry extends BlogEntry {
 // werken verschillende auteurs...
 // Voorzie een constructor voor GroupBlog die naast title en creator ook een lijst van authors bevat.
 // Tijdens consrtuctie wordt de creator van de Blog automatisch toegevoegd aan de lijst van authors (zie methode addAuthor)
-// Voorzie een getter voor de property authors ! deze retourneert de auhtors in alfabetische volgorde !
-// Voorzie een methode addAuthor(author) ! let op: een auhtor kan geen twee keer in de lijst van authors voorkomen !
+// Voorzie een getter voor de property authors ! deze retourneert de authors in alfabetische volgorde !
+// Voorzie een methode addAuthor(author) ! let op: een author kan geen twee keer in de lijst van authors voorkomen !
 // Voorzie een methode removeAuthor(author) ! let op: de creator van de blog mag je nooit verwijderen !
 // Override de methode addEntry. ! Indien de author niet voorkomt in de lijst van authors werp je een exception !
 

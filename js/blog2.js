@@ -22,6 +22,8 @@ class BlogEntry {
   }
 }
 
+// Neem de klasse Blog over uit blog1.js en werk daarop verder.
+//
 // Maak van entries en creator 'private' properties, gebruik _ notatie
 // Voorzie een getter voor creator, geen setter, zorg dat creator de waarde
 // 'Anonymous' krijgt indien de parameter creator niet werd opgegeven of leeg is.
